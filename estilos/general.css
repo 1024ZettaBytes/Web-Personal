@@ -1,0 +1,219 @@
+
+/* Barra de titulo */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 100%;
+    
+    text-align: center;
+    background: white url("../imagenes/bgheader.jpeg"); 
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+   border-bottom: 4px solid #383C3E;
+    
+}
+img#email{
+    margin-top:20%;
+     height: 100px;
+ 
+ }
+/* Barra de navegacion */
+nav {
+    position: absolute;
+    top: 151px;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    border: 3px solid #383C3E;
+    background: #383C3E;
+}
+
+/* Principal */
+main {
+    position: absolute;
+    
+    width: calc(100% - 156px);
+    height: calc(100%-150px);
+    top: 154px;
+    left: 156px;
+    background: #80868A  ;
+}
+body{
+    background: #80868A;
+}
+/* Imagen enla barra de titulo */
+img#logo {
+    float: left;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;;
+    
+}
+img#email:hover {
+    background: white;
+    
+}
+a#email {
+    
+    float: right;
+     
+}
+
+img#perfil{
+    
+    width:100%;
+    border-radius:50px;
+}
+table#general{
+   border: 3px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+table#general td{
+    border: 3px solid black;
+    background: white;
+}
+table#general th{
+    border: 3px solid black;
+    background: #70C1F8 ;
+    
+}
+table#horario{
+    width: 100% ;
+    text-align: center; 
+    background: #F0F3F4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table#horario td.noClase{
+    border: none;
+}
+table#horario td.metodos, table#horario  tr#metodos{
+    background:#D0D3D4;
+}
+table#horario td.admon, table#horario  tr#admon{
+    background:#F8C471;
+}
+table#horario td.requisitos, table#horario  tr#requisitos{
+    background:#82E0AA ;
+}
+table#horario td.arq, table#horario  tr#arquitectura{
+    background:#85C1E9;
+}
+table#horario td.pruebas, table#horario  tr#pruebas{
+    background:#D7BDE2;
+}
+table#horario td.web, table#horario tr#aplicaciones{
+    background:#F1948A;
+}
+table#horario tr#sustentabilidad{
+    background:rgb(38, 184, 128);
+}
+table#aficionesTitulo, table#contacto{
+    width: 100%;
+}
+table#aficionesTitulo img{
+    vertical-align: middle;
+}
+#alignDerecha{
+    text-align:right;
+}
+#alignIzquierda{
+    text-align:left;
+}
+img.icono{
+    width: 30;
+    height: 30;  
+}
+img.autor{
+    width: 80;
+    height: 100;
+}
+img.libro{
+    width: 40;
+    height: 60;
+}
+img.album{
+    width: 60;
+    height: 60;
+}
+img.tecnologia{
+    width: 60;
+    height: 60;
+}
+/* Lista de ligas en la barra de navegaci�n */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:150px;
+}
+
+/* Elementos de la lista de ligas en la barra de navegaci�n */
+nav li {
+    position: relative;
+    width:150px;
+    float:left;
+    clear:left;
+}
+
+/* Ligas en la barra de navegacion */
+nav a {
+    
+    display: block;
+    text-decoration: none;
+    background-color: #383C3E;
+    padding: 0 10px;
+    width: 130px;    
+    border: 1px solid #2A80B9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+nav a:link {
+    color: white; 
+}
+
+nav a:visited {
+    color:white; 
+}
+
+nav a:hover {
+    color: #383C3E;
+    background-color: #2A80B9;
+   font-weight: bold;
+    transition-duration: 200ms; 
+}
+
+main a:link{
+   text-decoration-line: none;
+    
+}
+main a:link:hover{
+    font-style: oblique;
+ }
+div.tabla {
+  display: table;
+  margin: auto;
+}
+
+
+div#contenido{
+    padding-top: 10px; 
+    padding-left: calc(30% - 150px); 
+    padding-right: 30%; 
+    text-align: center;
+}
+div#contenidoAficiones, div#contenidoContacto{
+    margin-left:20%;
+    margin-right: 20%;
+    border: 4px solid black;
+    background: rgb(175, 173, 173);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

@@ -1,0 +1,97 @@
+﻿<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Contactame
+    </title>
+    <link rel="stylesheet" type="text/css" href="estilos/general.css" />
+</head>
+
+<body>
+        <header>
+                <img id="logo" src="imagenes/perfil.jpg" alt="mi foto"/>
+                <a id="email" href="mailto://ramirezcota.eduardo@gmail.com">
+                    
+                    <img id="email" src="imagenes/email.png" alt="Imagen Email" />
+                    
+                </a>
+                <h1>Jesús Eduardo Ramírez Cota</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="horario.html">Horario</a></li>
+                    <li><a href="aficiones.html">Aficiones</a></li>
+                    <li><a href="contactame.html">Contacto</a></li>
+                </ul> 
+            </nav>
+            <main>
+    <div id="contenidoContacto">
+        <table id="contacto" border="4">
+            <th>
+                <h1>CONTÁCTAME</h1>
+            </th>
+        </table>
+        <form action="mailto:ramirezcota.eduardo@gmail.com" method="POST">
+            <table id="alignDerecha">
+                <tr>
+                    <th>Nombre completo:</th>
+                    <td><input type="text" name="nombre"></td>
+                </tr>
+                <tr>
+                    <th>Sexo:</th>
+                    <td id="alignIzquierda"><select name="sexo">
+                            <option>Hombre</option>
+                            <option>Mujer</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <th>Dirección:</th>
+                    <td><input type="text" name="direccion"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <th>Ocupación:</th>
+                    <td><input type="email" name="ocupacion"></td>
+                </tr>
+                <tr>
+                    <th>Aficiones:</th>
+                    <td id="alignIzquierda">
+                        <input type="checkbox" name="1" value="videojuegos"><a>VideoJuegos</a><br>
+                        <input type="checkbox" name="2" value="leer"><a>Leer</a><br>
+                        <input type="checkbox" name="3" value="musica"><a>Música</a><br>
+                        <input type="checkbox" name="4" value="deporte"><a>Deporte</a><br>
+                        <input type="checkbox" name="5" value="tecnologia"><a>Tecnología</a><br>
+                        <input type="checkbox" name="6" value="matemáticas"><a>Matemáticas</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>¿Hablas más de 2 idiomas?</th>
+                    <td id="alignIzquierda">
+                        <input type="radio" name="idioma" value="si"><a>Sí</a>
+                        <input type="radio" name="idioma" value="no"><a>No</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Cuentame un poco más sobre tí: </th>
+                    <td id="alignIzquierda">
+                        <textarea name="mas" rows="10" style="resize: none"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Restablecer"></button></td>
+                    <td><input type="submit" value="Enviar"></button></td>
+                </tr>
+            </table>
+
+        </form>
+
+    </div>
+            </main>
+</body>
+
+</html>
